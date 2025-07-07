@@ -5,8 +5,6 @@
 # from PIL import Image
 # import matplotlib.pyplot as plt
 
-from val.datasets import CustomImageDataset
-
 # # Задание 1
 #
 # # Создаем пайплайн аугментаций
@@ -480,7 +478,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import transforms, models
 from torch.utils.data import DataLoader
-from val.datasets import CustomImageDataset
+from data.val.datasets import CustomImageDataset
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
